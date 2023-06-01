@@ -1,19 +1,30 @@
 {
-  "name": "template-typescript",
+  "name": "awesome-links",
+  "version": "0.1.1",
   "private": true,
-  "version": "0.1.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^13.1.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.26",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
     "prettier": "^2.8.8",
     "prettier-plugin-css-order": "^1.3.0",
     "prettier-plugin-organize-attributes": "^0.0.5",
     "prettier-plugin-organize-imports": "^3.2.2",
     "prettier-plugin-tailwindcss": "^0.3.0",
+    "tailwindcss": "^3.2.4",
     "typescript": "^5.0.4",
     "vite": "^4.3.9"
   },
