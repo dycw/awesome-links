@@ -1,6 +1,6 @@
-# `template-typescript`
+# Awesome Links (Prisma)
 
-Template for TypeScript repositories
+https://www.prisma.io/blog/fullstack-nextjs-graphql-prisma-oklidw1rhw
 
 ## Getting started
 
